@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Mi Portafolio - Contacto
+    link(rel="stylesheet", href="/css/contacto.css")
+
+  body
+    header
+      h1 Contáctame
+      br
+      nav
+        a.button-menu(href="/") Inicio
+        a.button-menu(href="/habilidades") Habilidades
+        a.button-menu(href="/contacto") Contacto
+    main
+      .contact-form
+        h2 Formulario de Contacto
+        form(action="/enviar", method="POST")
+          label(for="nombre") Nombre:
+          input(type="text", name="nombre", id="nombre", required)
+          label(for="email") Correo Electrónico:
+          input(type="email", name="email", id="email", required)
+          label(for="mensaje") Mensaje:
+          textarea(name="mensaje", id="mensaje", rows="4", required)
+          button(type="submit") Enviar Mensaje
+        .confirmation-message
+          | Tu mensaje ha sido enviado correctamente.
+      br
+      .contact-info
+        h2 Información de Contacto
+        p #{mensaje}
+        p
+          a(href="mailto:andradema@email.com") tu@email.com
+        p O siguiéndome en mis redes sociales:
+        ul
+          li
+            a(href="https://linkedin.com/in/tu-perfil") LinkedIn
+          li
+            a(href="https://github.com/tu-usuario") GitHub
+    footer
+      p
+        a(href="/privacidad") Política de privacidad
+        |  | 
+        a(href="/terminos") Términos de servicio
+    script(src="/js/contacto.js")
+

@@ -1,0 +1,33 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Mi Portafolio - Inicio
+    link(rel="stylesheet", href="/css/styles.css")
+  body
+    header
+      h1 ¡Bienvenido a mi Portafolio!
+      nav
+        button.button-menu(href="/") Inicio
+        button.button-menu(href="/habilidades") Habilidades
+        button.button-menu(href="/contacto") Contacto
+    main
+      br
+      div.center-content
+        .profile-container
+          h1 Sobre Mí
+          img.profile-image(src="/img/perfil.jpg", alt="Imagen de perfil")
+          h4
+            | Hola, soy #{nombre}, un apasionado por la programación y la tecnología. Este es mi portafolio donde comparto cosas sobre y mis habilidades.
+          p
+            | Tengo #{años} años.
+          p 
+            | Soy estudiante del #{instituto} de #{carrera} y estoy en #{ciclo} ciclo.
+
+    footer
+      p
+        a(href="/privacidad") Política de privacidad
+        |  | 
+        a(href="/terminos") Términos de servicio
+    script(src="/js/navigation.js")

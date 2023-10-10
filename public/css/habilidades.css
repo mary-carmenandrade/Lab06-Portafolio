@@ -1,0 +1,78 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos para el contenedor de categoría de habilidades */
+.skill-category {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Estilos para los títulos de categoría */
+.skill-category h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la lista de habilidades */
+.skill-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-category li {
+    color: #444;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+}
+/* Estilos para los botones */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

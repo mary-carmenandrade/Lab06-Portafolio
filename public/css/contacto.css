@@ -1,0 +1,158 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+/* Estilos para los botones del menú */
+.button-menu {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-menu:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* Estilos para el contenedor de información de contacto */
+.contact-info {
+    background-color: #dad8d8; /* Color de fondo plomo claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinea el texto a la izquierda */
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    margin-bottom: 20px; /* Agrega espacio inferior */
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0; /* Elimina el margen superior e inferior para centrar verticalmente */
+    padding-bottom: 20px; /* Agrega espacio inferior para separar el título del contenido */
+}
+
+.contact-info p {
+    font-size: 18px;
+    color: #444;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+/* Estilos para el formulario de contacto */
+.contact-form {
+    background-color: #a5c4d3d3; /* Fondo suave */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Centra el texto a la izquierda */
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    color: #333;
+    margin: 0; /* Elimina el margen superior e inferior para centrar verticalmente */
+    padding-bottom: 20px; /* Agrega espacio inferior para separar el título del formulario */
+}
+
+.contact-form label {
+    font-size: 18px;
+    color: #444;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px 1px; /* Ajusta el relleno en los lados para hacer los campos más cortos */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 120px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #19066d;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.confirmation-message {
+    color: #007bff;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    display: none; /* Inicialmente oculto */
+}
